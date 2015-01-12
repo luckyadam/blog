@@ -1,5 +1,5 @@
 {
-  "name": "hexo-site",
+  "name": "Lolita",
   "version": "2.8.3",
   "private": true,
   "dependencies": {
@@ -7,5 +7,8 @@
     "hexo-renderer-ejs": "*",
     "hexo-renderer-marked": "*",
     "hexo-renderer-stylus": "*"
+  },
+  "scripts": {
+    "build": "./build.sh"
   }
 }
