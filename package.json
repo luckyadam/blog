@@ -10,5 +10,8 @@
   },
   "scripts": {
     "build": "./build.sh"
+  },
+  "devDependencies": {
+    "hexo": "^2.8.3"
   }
 }
