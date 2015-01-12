@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Lolita
+subtitle: 
 description:
-author: John Doe
-email:
-language:
+author: luckyadam
+email: weitaozsh@gmail.com
+language: zh-CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://luckyadam.github.io
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -79,10 +79,11 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: landscape
+theme: Apollo
 exclude_generator:
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type:github
+  repo:git@github.com:luckyadam/luckyadam.github.io.git
