@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+- '0.11'
+script: npm run-script build "${TRAVIS_PULL_REQUEST}"
+env:
+  global:
+  - GH_REF: github.com/luckyadam/luckyadam.github.io.git
+  - secure: kZ244sFeypY8LIwiym6mSI3WH7xHVT7bT2I34nY/Xz3plMjGU/5LrmkUEsUiQVNsBfqgUvA6B5dBTwvtO4wf89KD8C5M/GhVeWgjCbynt1S3/eAO6ns8juvV66cGlMmrpNUR6xO6CXMXznllx1EQCcp4WUToXMQqzcAUDxMHCpI=
