@@ -1,5 +1,5 @@
 #!/bin/bash
-hexo clean || exit 0;
+rm -rf public || exit 0;
 mkdir public;
 hexo optimize;
 if [ "$1" = "false" ] 
