@@ -1,6 +1,6 @@
 {
   "name": "Lolita",
-  "version": "2.8.3",
+  "version": "0.0.2",
   "private": true,
   "dependencies": {
     "hexo-console-optimize": "0.0.5",
