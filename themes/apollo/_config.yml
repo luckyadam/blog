@@ -1,0 +1,13 @@
+# Header
+menu:
+  首页: /
+  归档: /archives
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
