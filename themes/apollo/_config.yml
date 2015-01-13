@@ -1,8 +1,10 @@
 # Header
 menu:
-  首页: /
-  归档: /archives
-rss: /atom.xml
+  - title: '首页'
+    url: ''
+  - title: '归档'
+    url: 'archives'
+rss: /blog/atom.xml
 
 # Content
 excerpt_link: Read More

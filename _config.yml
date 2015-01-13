@@ -48,9 +48,9 @@ tag_map:
 ## 2: Enable pagination
 ## 1: Disable pagination
 ## 0: Fully Disable
-archive: 2
-category: 2
-tag: 2
+archive: 1
+category: 1
+tag: 1
 
 # Server
 ## Hexo uses Connect as a server
@@ -82,9 +82,16 @@ disqus_shortname:
 theme: apollo
 exclude_generator:
 
+# Feed
+## Hexo Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type:github
-  repo:https://github.com/luckyadam/luckyadam.github.io.git
+  repo:https://github.com/luckyadam/blog.git
   branc:gh-pages
