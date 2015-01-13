@@ -94,4 +94,4 @@ feed:
 deploy:
   type:github
   repo:https://github.com/luckyadam/blog.git
-  branc:gh-pages
+  branch:gh-pages
