@@ -6,7 +6,7 @@
 		<span class="meta-elements author"><%= config.author %></span>
 		<div class="commentscount">
 			<% if (post.comments && config.duoshuo_shortname){ %>
-				<a href="#duoshuo_head" class="article-comment-link">Comments</a>
+				<a href="<%- post.permalink %>#duoshuo_head" class="article-comment-link">Comments</a>
 			<% } %>
 		</div>
 	</footer>
