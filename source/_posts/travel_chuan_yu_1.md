@@ -1,6 +1,11 @@
 title: 川渝行——前奏篇
 date: 2015-10-19 20:05:46
-tags: travel
+tags: 
+- 成都
+- 风景
+categories:
+- 旅游
+- 摄影
 ---
 
 ![image](http://ww1.sinaimg.cn/large/49320207gw1ex86cpi945j20xc0m8h7b.jpg)

@@ -4,7 +4,9 @@ menu:
     url: ''
   - title: '归档'
     url: 'archives'
-rss: /blog/atom.xml
+  - title: '分类'
+    url: 'categories'
+rss: /atom.xml
 
 # Content
 excerpt_link: Read More

@@ -89,6 +89,15 @@ feed:
   path: atom.xml
   limit: 20
 
+# imagemin
+imagemin:
+  enable     : true
+  interlaced : false
+  multipass  : false
+  optimizationLevel: 2
+  pngquant   : false
+  progressive: false
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
