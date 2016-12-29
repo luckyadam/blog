@@ -1,5 +1,6 @@
 #!/bin/bash
 rm -rf public || exit 0;
+hexo generate;
 mkdir public;
 if [ "$1" = "false" ]
 # not a pull request, deploy to github pages
