@@ -1,7 +1,6 @@
 #!/bin/bash
 rm -rf public || exit 0;
 mkdir public;
-hexo optimize;
 if [ "$1" = "false" ]
 # not a pull request, deploy to github pages
 then ( cd public

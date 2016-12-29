@@ -89,13 +89,30 @@ feed:
   path: atom.xml
   limit: 20
 
-# imagemin
-imagemin:
-  enable     : true
-  interlaced : false
-  multipass  : false
+html_minifier:
+  enable: true
+  exclude: 
+
+css_minifier:
+  enable: true
+  exclude: 
+    - '*.min.css'
+
+js_minifier:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude: 
+    - '*.min.js'
+
+# image_minifier
+image_minifier:
+  enable: true
+  interlaced: false
+  multipass: false
   optimizationLevel: 2
-  pngquant   : false
+  pngquant: false
   progressive: false
 
 # Deployment
